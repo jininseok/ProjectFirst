@@ -12,16 +12,15 @@ public class Exercise08 {
 	
 		int sum = 0;
 		double avg = 0.0;
-		double c= 0;
+		double count= 0;
 		
 		
 		for(int i=0; i<array.length; i++) {
 			for(int j=0; j<array[i].length; j++) {
 				sum = sum + array[i][j];
-				avg = sum / array.length;
-				c = c+1;
+				count = count+1;
 			}
-			avg = sum /c;
+			avg = sum /count;
 			System.out.println();
 		}
 		
