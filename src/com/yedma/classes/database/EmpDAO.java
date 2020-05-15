@@ -24,7 +24,7 @@ public class EmpDAO {
 		try {
 			// System.out.println(sql);
 			PreparedStatement pstmt = conn.prepareStatement(sql);
-			int r = pstmt.executeUpdate();
+			int r = pstmt.executeUpdate();// 실행 명령문
 			System.out.println(r + "건이 입력되었습니다.");
 		} catch (SQLException e1) {
 			e1.printStackTrace();
